@@ -1,0 +1,84 @@
+Errata
+Created as a text file
+Will hold logs and adds
+
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Learning_Plan.docx
+        modified:   Session_Log_and_Notes.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Learning_Plan.docx
+        modified:   README.md
+        modified:   Session_Log_and_Notes.docx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ~$README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git add Learning_Plan.docx
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Learning_Plan.docx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   Session_Log_and_Notes.docx
+
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git add README.md
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git add Session_Log_and_Notes.docx
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Learning_Plan.docx
+        modified:   README.md
+        modified:   Session_Log_and_Notes.docx
+
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status -s
+M  Learning_Plan.docx
+M  README.md
+M  Session_Log_and_Notes.docx
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status -s
+M  Learning_Plan.docx
+M  README.md
+M  Session_Log_and_Notes.docx
+?? Errata.txt
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>
