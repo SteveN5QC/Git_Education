@@ -82,3 +82,63 @@ M  Session_Log_and_Notes.docx
 ?? Errata.txt
 
 C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>
+
+
+
+
+============================================================================================
+
+
+C:\Users\Steve>cd C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git remote
+origin
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git remote -v
+origin  https://github.com/SteveN5QC/Git_Education.git (fetch)
+origin  https://github.com/SteveN5QC/Git_Education.git (push)
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 180.33 KiB | 16.39 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/SteveN5QC/Git_Education.git
+   7fbbe28..73369a1  main -> main
+
+
+
+
+
+
+
+
+C:\Users\Steve\OneDrive\Working Files\Git_Learning\Git_Education>git remote show origin
+* remote origin
+  Fetch URL: https://github.com/SteveN5QC/Git_Education.git
+  Push  URL: https://github.com/SteveN5QC/Git_Education.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+
+
+
+
+
+
+Next New -- 2.6 Git Basics - Tagging
