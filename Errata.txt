@@ -23,9 +23,33 @@ fatal: Authentication failed for 'https://github.com/SteveN5QC/Git_Education.git
 amnesia@amnesia:~/Persistent/Git/Repositories/Git_Education$ 
 
 NEXT:  
-1. Upload to Forgetful via Web
-2. Try Archiving and Re-Starting by new clone.
-3. Create Open Issues List -->  Start with Authentication and Working on Branches
+1. Upload to Forgetful via Web -- COMPLETE
+2. Try Archiving and Re-Starting by new clone -- COMPLETE
+3. Create Open Issues List -->  Start with Authentication and Working on Branches -- COMPLETE
 
+
+Create Notes
+
+https://github.com/SteveN5QC/Arduino.git
+https://github.com/SteveN5QC/Python.git
+
+Exercise:  Maint
+
+Create New Repository on Command Line:
+
+echo "# Arduino" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SteveN5QC/Arduino.git
+git push -u origin main
+
+
+Push an existing repository from command line
+
+git remote add origin https://github.com/SteveN5QC/Arduino.git
+git branch -M main
+git push -u origin main
 
 
